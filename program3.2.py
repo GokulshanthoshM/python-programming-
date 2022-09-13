@@ -3,7 +3,7 @@ if(n<=999):
     a=int(n/100)
     b=int(n%100)
     c=int(b/10)
-    d=int(n%10)
+    d=int(b%10)
     print(a,c,d)
     print(d,c,a)
     print(c,d,a)
