@@ -1,8 +1,15 @@
 from itertools import permutations
 
-p= list((input("how many number u want to add:")))
+value = int(input("how many number u want to add"))
 
-comb = permutations(p, len(p))
+arr = []
+
+for n in range(value):
+    arr.append(input("Enter value"))
+comb = permutations(arr, value)
+print(comb)
 for k in comb:
     print(k)
+
+
 
