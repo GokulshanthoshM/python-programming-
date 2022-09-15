@@ -1,4 +1,3 @@
-25 lines (25 sloc)  690 Bytes
 
 def sumsquare(l):
       odd = []
